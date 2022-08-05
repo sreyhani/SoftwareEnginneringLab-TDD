@@ -12,7 +12,8 @@ public class RectangleTest {
 
     @Test
     public void computeArea() {
-        assertEquals(rectangle.computeArea(), 200);
+        Shape shape = rectangle;
+        assertEquals(shape.computeArea(), 200);
     }
 
     @Test

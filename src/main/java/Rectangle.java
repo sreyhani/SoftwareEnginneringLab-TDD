@@ -1,10 +1,10 @@
-class Rectangle {
+class Rectangle implements Shape {
     Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
     }
 
-    int computeArea() {
+    public int computeArea() {
         return width * height;
     }
 
